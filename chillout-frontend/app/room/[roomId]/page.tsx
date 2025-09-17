@@ -64,7 +64,7 @@ export default function RoomPage() {
               <p className="text-xs font-semibold opacity-70">
                 {msg.username === username ? "You" : msg.username}
               </p>
-              <p>{msg.message}</p>
+              <p className="break-words">{msg.message}</p>
             </div>
           </div>
         ))}
